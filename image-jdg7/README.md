@@ -29,6 +29,7 @@ To boot it in domain mode:
 docker run -it --rm --name jdg --hostname jdg jboss-demo/eap:7  /opt/jboss/jdg/jboss-datagrid-7.0.0-server/bin/startJdgDomain.sh
 ```
 ## Build Prerequisites
+  [jboss-demo:jdk:8](https://github.com/serhat-dirik/docker-demo-images/tree/master/image-jdk/README.md) image must be build and placed in local repo before building this image 
 
 ### Installation Files
    You need to download & place required files into install subdirectory. Please read [README](./install/README.md) file under install subdirectory to see required files.
