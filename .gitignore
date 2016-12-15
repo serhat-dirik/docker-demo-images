@@ -1,0 +1,4 @@
+.git/**
+image-eap7/install/*.zip
+image-jdg7/install/*.zip
+tmp/**
